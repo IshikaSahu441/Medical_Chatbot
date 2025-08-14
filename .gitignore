@@ -1,2 +1,6 @@
+# Environment variables
 .env
-src.egg-info
+*.env
+
+# Python packaging metadata
+*.egg-info/
