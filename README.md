@@ -6,7 +6,7 @@ The bot retrieves relevant context from a Pinecone vector database and generates
 ---
 
 ## Features
-- **Flask Web App** with simple chat interface (`templates/chat.html`)
+- **Flask Web App** with a simple chat interface, supporting both dark and light modes for better user experience. (`templates/chat.html`) 
 - **Pinecone Vector Store** for medical knowledge base
 - **Google Gemini 2.0 Flash** model for natural language responses
 - **Dockerized** for easy deployment
@@ -76,3 +76,14 @@ docker run -d \
 ```
 
 The app will be available at: http://localhost:3000
+
+---
+
+## Web App Preview
+
+<img width="500" height="413" alt="Screenshot 2025-08-15 180445" src="https://github.com/user-attachments/assets/ad7e0825-6bc2-4ed1-93f0-9e2ee9e1c901" />
+<img width="500" height="413" alt="Screenshot 2025-08-15 180653" src="https://github.com/user-attachments/assets/5b164278-d937-45a4-8272-33593aaaa944" />
+
+
+
+
