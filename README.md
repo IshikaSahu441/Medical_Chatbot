@@ -1,4 +1,4 @@
-# Medical Chatbot Using RAG and Gemini
+# Medical Chatbot 
 
 A Flask-based **RAG (Retrieval-Augmented Generation)** chatbot that uses **LangChain**, **Pinecone**, and **Google Generative AI** to answer medical-related queries.  
 The bot retrieves relevant context from a Pinecone vector database and generates answers using the Gemini model.
