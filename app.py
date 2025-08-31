@@ -21,7 +21,7 @@ os.environ["GOOGLE_API_KEY"] = GOOGLE_API_KEY
 
 embedding = download_hugging_face_embeddings()
 
-index_name = "medical-chatbot"
+index_name = "medical-chatbot-01"
 
 docsearch = PineconeVectorStore.from_existing_index(
     index_name = index_name,
