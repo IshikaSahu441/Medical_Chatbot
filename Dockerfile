@@ -13,3 +13,4 @@ EXPOSE 3000
 ENV PYTHONUNBUFFERED=1
 
 CMD ["python", "app.py"]
+
